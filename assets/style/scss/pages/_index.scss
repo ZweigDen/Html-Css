@@ -1,0 +1,64 @@
+.bg{
+    background-image: url("../../images/img-headerShape.png");
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+}
+/*製作底線*/
+.borderB1{
+    border-bottom:6px solid  #F58D23;
+    border-radius: 2%;
+}
+.borderB2{
+    border-bottom:6px solid  #539E43;
+    border-radius: 2%;
+}
+.borderB3{
+    border-bottom:6px solid  #6762A6;
+    border-radius: 2%;
+}
+
+/*時間軸製作*/
+.timeLine {
+    position: relative;
+}
+.timeLine::before{
+    content:"";
+    position: absolute;
+    border:1px solid #9B9B9B ;
+    left:50%;
+    top:0;
+    bottom:0;
+    transform: translateX(-50%);
+}
+.flower{
+    position: relative;
+}
+.flower::after{
+    content: "";
+    position: absolute;
+    background-image: url("../../images/dot-timeItem.png");
+    top:0;
+    bottom:0;
+    width: 24px;
+    height: 28px;
+    left:49%;
+    transform: translateX(-5%);
+}
+
+/*手指點選與背景圖*/
+.h-150{
+    height: 150px;
+}
+.hoverFinger{
+    position: absolute;
+    left:188px;
+    bottom:-25px;
+}
+
+/*footer*/
+.bgFooter{
+    background-image: url("../../images/img-Looper-bg.png");
+    background-size: cover;
+    background-position: center center;
+}
